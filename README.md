@@ -1,16 +1,45 @@
-# city_lens
+GeoSpatial Analysis for Better Urbanization of Faisalabad City 🏙️
+A mobile-based geospatial analysis system designed to monitor and predict urban sprawl in Faisalabad, using satellite imagery, machine learning, and interactive map visualization. Built as part of a final year project at NUML.
 
-A new Flutter project.
+🔍 Project Overview
+City Lens is a smart urban monitoring app that uses:
 
-## Getting Started
+🛰️ Satellite imagery (QGIS, Google Earth Engine)
 
-This project is a starting point for a Flutter application.
+🧠 Machine Learning (TensorFlow Lite)
 
-A few resources to get you started if this is your first Flutter project:
+📱 Flutter UI (with Google Maps and Firebase)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The system enables planners and researchers to assess:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Urban sprawl growth
+
+Land type classification
+
+Population density zones
+
+Future urban expansion hotspots
+
+🛠 Tech Stack
+Layer	Tools/Technologies
+Frontend	Flutter, Google Maps API, Riverpod
+Backend	Firebase Firestore, Firebase Auth
+ML Inference	TensorFlow Lite, Firebase ML Model Downloader
+Data	QGIS, Google Earth Engine, Custom labeled satellite data
+
+✨ Features
+📍 Select any region from the map (polygon-based)
+
+🤖 Get ML-based predictions for:
+
+Urban/Non-Urban classification
+
+Population density
+
+Sprawl severity level
+
+🗂 History of predictions saved to Firebase
+
+📊 Interactive UI with collapsible info panel
+
+🔒 Firebase authentication with login/signup
