@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767588034386",
+    "project_id": "city-lens-9e413",
+    "storage_bucket": "city-lens-9e413.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767588034386:android:6893885c6b2661136f3c8b",
+        "android_client_info": {
+          "package_name": "com.example.city_lens"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcV2bOpkxOM41WvkO10m3gnaTfoi95l_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
